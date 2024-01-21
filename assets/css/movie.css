@@ -1,0 +1,68 @@
+/* .heroimg */
+
+.heroimg {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.moviemodal {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width:50%;
+}
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* background-color: yellow; */
+    z-index: 999;
+    top: 50px;
+    left: 33px;
+}
+.moviemodal h2{
+    margin-bottom:1rem;
+}
+
+.movieDetails{
+    
+    list-style: none;
+    margin-bottom: 1rem ;
+}
+
+.movieDetails  li{
+    display: inline-block;
+    border-right: 2px solid grey;
+    padding:0 10px;
+   
+   
+}
+.movieDetails li span{
+    border:2px solid grey;
+    padding:2px 8px;
+}
+.movieDetails li:first-child{
+    padding-left:0;
+}
+.movieDetails li:last-child{
+    border-right: none;
+}
+.bgimage{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.7) 60%, transparent);
+    
+   
+}
+.overview{
+    margin-bottom: 10px;
+}

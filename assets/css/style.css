@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.moviecard {
+    height: 100vh;
+    position: relative;
+    cursor: pointer;
+}
+
+.moviecard img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.7) 60%, transparent);
+    width: 50%;
+    height: 100%;;
+      
+    color: white;
+}
+
+.mainslider .owl-prev,
+.mainslider .owl-next {
+    position: absolute;
+    top: 50%;
+    font-size: 28px !important;
+    color: white !important;
+}
+
+.mainslider .owl-prev {
+    left: 10px;
+    font-size: larger;
+}
+
+.mainslider .owl-next {
+    right: 10px;
+    font-size: larger;
+
+}
+
+.mainslider .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
